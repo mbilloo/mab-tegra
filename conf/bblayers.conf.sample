@@ -5,6 +5,7 @@ TD_BBLAYERS_CONF_VERSION = "tegrademo-3"
 
 BBPATH = "${TOPDIR}"
 BBFILES ?= ""
+BSPDIR := "${@os.path.abspath(os.path.dirname(d.getVar('FILE')) + '/../..')}"
 
 BBLAYERS ?= " \
   ${BSPDIR}/sources/poky/meta \
