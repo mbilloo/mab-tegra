@@ -11,6 +11,7 @@ BBLAYERS ?= " \
   ${BSPDIR}/sources/poky/meta \
   ${BSPDIR}/sources/meta-tegra \
   ${BSPDIR}/sources/meta-mab-tegra \
+  ${BSPDIR}/sources/meta-mab-tegra-support \
   ${BSPDIR}/sources/meta-tegra/contrib \
   ${BSPDIR}/sources/meta-openembedded/meta-oe \
   ${BSPDIR}/sources/meta-openembedded/meta-python \
